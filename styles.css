@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dfffe0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    background: #e3ffe3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background: #6faa7f;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background: #4c9e6b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    flex-grow: 1;
+    overflow-y: auto
+}
+
+.contact {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.contact:hover {
+    background: #d0f0d0
+}
+
+.chat-area {
+    flex: 1;
+    padding: 20px;
+    background: #f0fff0
+}
+
+.chat-messages {
+    height: 70vh;
+    overflow-y: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.message {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px
+}
+
+.me {
+    text-align: right;
+    background: #a1e0a1
+}
+
+.them {
+    text-align: left;
+    background: #f0f0f0
+}
